@@ -12,6 +12,10 @@ gem 'coffee-rails', '~> 4.2' # Use CoffeeScript for .coffee assets and views
 gem 'turbolinks', '~> 5' # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'jbuilder', '~> 2.5' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootsnap', '>= 1.1.0', require: false # Reduces boot times through caching; required in config/boot.rb
+gem 'therubyracer' # Needed to run less-rails-bootstrap gem
+gem 'less-rails-bootstrap' # Use for bootstrap.min.css file
+gem 'font-awesome-rails' # Use for font-awesome-rails gemfile
+gem 'jquery-easing-rails' # User for jquery easing.min.js file
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw] # Call 'byebug' anywhere in the code to stop execution and get a debugger console
