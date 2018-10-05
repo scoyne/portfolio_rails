@@ -15,6 +15,5 @@
 //= require jquery_ujs
 //= require jquery.easing
 //= require twitter/bootstrap
-//= require activestorage
 //= require turbolinks
 //= require_tree .

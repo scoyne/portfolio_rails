@@ -15,6 +15,7 @@ gem 'bootsnap', '>= 1.1.0', require: false # Reduces boot times through caching;
 gem 'therubyracer' # Needed to run less-rails-bootstrap gem
 gem 'less-rails-bootstrap' # Use for bootstrap.min.css file
 gem 'font-awesome-rails' # Use for font-awesome-rails gemfile
+gem 'jquery-rails' # This gem provides jQuery and jQuery-ujs drivers
 gem 'jquery-easing-rails' # User for jquery easing.min.js file
 
 group :development, :test do
