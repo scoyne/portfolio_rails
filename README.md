@@ -1,24 +1,4 @@
-# README
+# custom-theme-rails
+Tutorial for implementing custom bootstrap theme/template in Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check this blog https://viblo.asia/p/how-to-integrate-custom-bootstrap-theme-in-rails-l0rvmxrAGyqA
