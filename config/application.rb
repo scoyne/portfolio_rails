@@ -16,7 +16,7 @@ require "rails/test_unit/railtie"
 Bundler.require(*Rails.groups)
 
 # config/application.rb
-config.assets.initialize_on_precompile = false
+#config.assets.initialize_on_precompile = false
 
 module CustomThemeRails
   class Application < Rails::Application
