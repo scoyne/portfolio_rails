@@ -381,23 +381,31 @@ body {
 }
 
 .about-intro {
-    color: #777;
-    background-color:#bbb;
+    color: #f7f7f7;
+    background-color:#666;
     text-align:center;
     padding:50px 80px;
-    text-align: justify;
+    text-align: center;
 }
-
+/*
 #about {
     background-color:transparent;
     font-size:25px;
     color: #f7f7f7;
 }
-
+*/
+#project {
+    padding: 50px 10px
+}
 #blog {
     background-color:transparent;
     font-size:25px;
+    
     color: #f7f7f7;
+    background-color:#666;
+    text-align:center;
+    padding:50px 80px;
+    text-align: center;
 }
 
 .thank-you {
@@ -428,8 +436,11 @@ body {
 }
 
 .bgimg-3 {
-  background-image: url("Productive-Morning.jpg");
-  min-height: 400px;
+    color: #777;
+    background-color:#bbb;
+    text-align:center;
+    padding:50px 80px;
+    text-align: center;
 }
 
 .caption {
