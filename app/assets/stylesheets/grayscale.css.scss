@@ -1,29 +1,27 @@
-body {
-    width: 100%;
-    height: 100%;
-    
-    font-family: Lato, sans-serif;
-    color: #fff;
-    background-color: #000;
-}
-
 html {
     width: 100%;
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0;
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
 
 p {
     margin: 0 0 25px;
@@ -155,9 +153,6 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-}
 
 .intro .intro-body .intro-text {
     font-size: 18px;
@@ -170,7 +165,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 60px; /* changed from 100px */
+        font-size: 79px; /* changed from 100px */
     }
 
     .intro .intro-body .intro-text {
@@ -472,4 +467,141 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+/* ### introduction ### */
+
+#introduction {
+    
+    width: 100%;
+    height: 100%;   
+    text-align: center;
+    color: #f6f6f6;
+    background: url(asset-path("introduction_computer.png")) no-repeat bottom center scroll; 
+    background-color: #000;
+    background-size: cover;
+    font-weight: 500;
+    margin-bottom: 2%;
+    padding-top: 25%;
+    font-size: 75px;;
+}
+
+.introduction-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* ### about me ### */
+#about-me {
+    background-color:transparent;
+    font-size:25px;
+    color: #f7f7f7;
+}
+
+.about-me-right {
+    color: #f7f7f7;
+    background-color:#667;
+    text-align:center;
+    padding: 10% 5%;
+    text-align: left;
+}
+
+.about-me-left {    
+    background-color: #667;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-working-image {
+    flex-shrink: 0;
+    min-height: 100%;
+}
+
+.about-me-image {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #38b6ff;
+    margin: 10px auto;
+}
+
+.modal-content {
+    background-color: #667;
+}
+/* ### my projects ### */
+#my-project {
+    padding: 30px 25px;
+    background-color: #000;
+}
+
+.my-project-image {
+    width: 100%;
+    height: 42%;
+    object-fit: cover;
+}
+/* ### featured project ### */
+#feature-project {
+    background-color: #667
+}
+
+.feature-project-right {
+    color: #000;
+    background-color:#fff;
+    text-align:center;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+.feature-project-left {    
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-project-image {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;    
+}
+/* display this row with flex and use wrap (= respect columns' widths) */
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+/* vertical spacing between columns */
+.content {
+    height: 75%;
+    padding: 20px 20px 10px;
+    color: #fff;
+}
+ 
+/* Demo backgrounds and styling*/
+.colour-1 {
+    background: #483C46;
+    color: #fff;
+}
+
+.colour-2 {
+    background: #82204A;
+}
+    
+.colour-4 {
+    background: #82204A;
+}
+  
+.content h3 {
+    margin-top: 0px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+
+.img--full {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
 }

@@ -13,7 +13,8 @@ gem 'turbolinks', '~> 5' # Turbolinks makes navigating your web application fast
 gem 'jbuilder', '~> 2.5' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootsnap', '>= 1.1.0', require: false # Reduces boot times through caching; required in config/boot.rb
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'bootstrap'
+gem 'sprockets-rails'
 
 # custom theme requirements
 gem 'therubyracer'

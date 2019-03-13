@@ -150,3 +150,120 @@
         </div>
     </footer>
     <!-- footer end -->
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="introduction-heading">full stack web developer</h1>
+                    <p class="introduction-text">Enjoying what life has blessed me with and sharing it through web development and voice interaction with digital assistants.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #about -->
+    <section id="about-me" class="content-section text-center">
+        <div class="row row-flex">
+            <div class="col-md-6 col-sm-6 col-xs-12 about-me-working-image about-me-left">
+            <%= image_tag('about_me_working.png', :class => "about-me-working-image") %>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 about-me-right">
+                <h1>My Interests</h1>
+                <p>Spend Time with Family / Development Webpages / Troubleshoot Issues / Solve Problems / Design Alexa Skills / Improve User Interactions with Technology / Run / Collaborate with Colleagues / Poka-yoke / Test New Technology / ... </p>
+                <hr>
+                <p><strong>Poka-yoke (ポカヨケ, [poka joke])></strong> <em>is a Japanese term that means "mistake-proofing" or "inadvertent error prevention". A poka-yoke is any mechanism in any process that helps an equipment operator avoid (yokeru) mistakes (poka). Its purpose is to eliminate product defects by preventing, correcting, or drawing attention to human errors as they occur.</em></p>
+                <!-- a little more about me pop-up modal -->
+                <!-- modal button trigger -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    A little more about me
+                </button>
+                <!-- modal pop-up -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <%= image_tag('about_me.jpg', :class => "about-me-image") %>
+                                <h5 class="modal-title" id="exampleModalLongTitle">A little more about me</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ever since I was a young boy, I've always loved technology. As a boy my parents would let me handle the lighting on the Christmas Tree. Every year was different because I wanted to improve upon the previous year's experience. This was nothing too high tech, but my parents let me play around. They always encouraged my love of technology.</p>
+                                <p>I've been in IT Support for over 20 years and what I've learned is how to troubleshoot effeciently and that you can never have all of the answers; a routine call is far from routine. Hundreds of factors can cause technology to fail. That is why after successfully troubleshooting the problem, I follow up in making any necessary adjustments I can to eliminate the issue for other users. </p>
+                                <p>I approach every project with the end user's experience in mind. If they are unable to find an answer or are unable to navigate the site successfully, then I've failed and I re-work the documentation or the page to make it easier for the user to find the answers they seek. Just like the Christmas lights, even when I feel I've done my work well, I'm always looking for ways to improve.</p>
+                                <p>I never take myself too seriously and I believe you learn the most by making mistakes. When working with my team, I ask if they made any mistakes today and if they reply with no, I say let's keep working until we make some.</p>
+                                <p>This portfolio is a representation of the web and programming projects I have created for myself, my work and my class assignments. They are all made as a result of my passion for learning and improving the overall experience.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Facinating</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- #projects -->
+    <section id="my-project">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="row row-flex">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <%= image_tag('tngq_image.jpg', :class => "my-project-image") %>
+                    <div class="content colour-1">
+                        <h3>The New Girl Quotes (TNGQ)</h3>
+                        <p>The New Girl Quote (TNGQ) generates quotes from the television program The New Girl. TNGQ is a full-stack web application that allows fans to sign up to add their favorite quote.  Visitors can also switch to a Premium account to make their quotes private and make comments on other's quotes.</p>
+                        <p></p>
+                        <a href="https://afternoon-eyrie-50277.herokuapp.com/" target="_blank" class="mt-auto btn btn-primary">Demo Site</a>
+                        <a href="https://github.com/scoyne/TNGQ" target="_blank" class="mt-auto btn btn-primary">Git Repo</a>
+                    </div>
+                </div>
+                <!--alexa skill -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <%= image_tag('alexa_1.jpg', :class => "my-project-image") %>
+                    <div class="content colour-1">
+                        <h3>Alexa Skill: Baldwin Walalce IT Support</h3>
+                        <p>The Baldwin Wallace Alexa Skill is designed for students, faculty and staff of Baldwin Wallace University to use their voice to find answers to frequently asked questions.</p>
+                        <br>
+                        <a href="#" target="_blank" class="mt-auto btn btn-primary">Git Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feature-project">
+        <!-- baldwin wallace it support portal -->
+        <div class="container-fluid">
+            <div class="row row-flex">
+                <div class="col-md-6 col-sm-6 col-xs-12 feature-project-left">
+                    <%= image_tag('helpBWedu.png', :class => "feature-project-image") %>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 feature-project-right">
+                    <h2>Baldwin Wallace HelpDesk Portal - help.bw.edu</h2>
+                    <p class="card-text">The Baldwin Wallace HelpDesk Web Page is designed to be a self service portal for students, faculty and staff of Baldwin Wallace University to find answers to their technology questions.  They can also create a support ticket, chat with an analyst, or stay informed about the latest phishing threats or network outages.</p>
+                    <a href="http://help.bw.edu" target="_blank" class="btn btn-primary">Demo Site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="content colour-2">
+                    <h3>Second column</h3>
+                    <p>Normal content.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="content colour-4">
+                    <h3>Fourth column</h3>
+                    <p>Normal content.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="content colour-6">
+                    <h3>Sixth column</h3>
+                    <p>Normal content.</p>
+                </div>
+            </div>
+        </div>
+
